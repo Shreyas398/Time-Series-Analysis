@@ -1,0 +1,23 @@
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Data files
+*.csv
+*.zip
+
+# OS metadata
+.DS_Store
+
+# VS Code settings
+.vscode/
