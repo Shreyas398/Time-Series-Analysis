@@ -5,19 +5,25 @@ This project presents an end-to-end analysis of both **seasonal** and **non-seas
 ---
 
 ## 📁 Repository Structure
-.
-├── seasonal/
-│ ├── SARIMA_CrudeOil.ipynb
-│ └── data.csv.zip
-├── non-seasonal/
-│ ├── ARIMA_GARCH_DBK.ipynb
-│ └── DBK.DE.csv
-├── Detailed Report/
-│ └── Detailed Report.pdf
-├── requirements.txt
-├── .gitignore
-└── README.md
 
+```
+Time-Series-Forecasting/
+│
+├── seasonal/
+│   ├── SARIMA_CrudeOil.ipynb      # Seasonal SARIMA forecasting notebook
+│   └── data.csv.zip               # Monthly crude oil import dataset (compressed)
+│
+├── non-seasonal/
+│   ├── ARIMA_GARCH_DBK.ipynb      # ARIMA + GARCH forecasting notebook
+│   └── DBK.DE.csv                 # Deutsche Bank stock price dataset
+│
+├── Detailed Report/
+│   └── Detailed Report.pdf        # Comprehensive analysis & findings
+│
+├── requirements.txt               # Python dependencies
+├── .gitignore                     # Git ignore file
+└── README.md                      # Project documentation
+```
 
 
 ## 🔗 Dataset Sources
